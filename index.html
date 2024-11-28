@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Queimar é Perder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: #555;
+            border-radius: 5px;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header .overlay h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header .overlay p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        main p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .donate-button {
+            display: inline-block;
+            background: #d32f2f;
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#inicio">Página Inicial</a>
+        <a href="#doacao">Doação</a>
+        <a href="#objetivo">Objetivo</a>
+    </nav>
+    <header>
+        <img src="queimada.jpeg" alt="Queimada">
+        <div class="overlay">
+            <h1>Projeto Queimar é Perder</h1>
+            <p>As queimadas na Amazônia não consomem apenas árvores; elas destroem vidas, culturas e o futuro do planeta. Preserve hoje para existir amanhã.</p>
+        </div>
+    </header>
+    <main id="inicio">
+        <p>Queimar é perder: a Amazônia, que absorve 2 bilhões de toneladas de CO₂ por ano, está em risco. Cada hectare queimado não é só floresta destruída, é o equilíbrio do planeta que se desfaz. Não deixe a chama do futuro apagar.</p>
+        <a href="#doacao" class="donate-button">Doe Agora</a>
+        <p>Ajude a tornar o Natal mais feliz para as comunidades indígenas da Amazônia! Seu apoio leva alimentos e presentes para famílias que perderam suas colheitas devido às mudanças climáticas.</p>
+    </main>
+    <section id="doacao">
+        <h2>Como Doar</h2>
+        <p>Clique no botão acima para contribuir com nosso projeto. Toda ajuda faz a diferença!</p>
+    </section>
+    <section id="objetivo">
+        <h2>Nosso Objetivo</h2>
+        <p>Nosso objetivo é conscientizar as pessoas acerca das queimadas ambientais, usando meios didáticos e práticos de incentivo.</p>
+    </section>
+    <footer>
+        <p>#Conscientização #Amazônia #MudançasClimáticas #Solidariedade</p>
+    </footer>
+</body>
+</html>
